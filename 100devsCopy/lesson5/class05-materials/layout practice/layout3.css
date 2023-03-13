@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+}
+
+header {
+    height: 100px;
+    border: 3px solid blue;
+    clear: both;
+}
+
+footer {
+    height: 100px;
+    border: 3px solid purple;
+    clear: both;
+}
+
+section.smaller {
+    height: 300px;
+    width: 20%;
+    border: 3px solid green;
+    float: left;
+}
+
+section.bigger {
+    height: 300px;
+    width: 40%;
+    border: 3px solid green;
+    float: left;
+}
+
+@media screen and (max-width: 600px) {
+    section {
+        background: green;
+    }
+}
+
+@media (min-width: 601px) and (max-width: 900px) {
+    section {
+        background: blue;
+        width: 33.3333%;
+    }
+
+    section.bigger {
+        display: none;
+    }
+}

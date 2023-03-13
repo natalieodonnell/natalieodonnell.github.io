@@ -1,0 +1,46 @@
+body {
+    background-color: lightskyblue;
+    border: 5px solid limegreen;
+    padding: 50px;
+    margin: 30px;
+    font-family: sans-serif;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    font-style: italic;
+}
+
+nav {
+    color: white;
+    text-align: center;
+
+
+}
+
+h2 {
+    color: white;
+}
+
+section {
+    color: white;
+    float: left;
+}
+
+img {
+    height: 250px;
+    width: auto;
+    float: right;
+
+}
+
+a {
+    color: limegreen;
+    display: inline-block;
+    list-style: none;
+}
+
+ul {
+    list-style: none;
+}

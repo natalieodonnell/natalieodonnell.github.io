@@ -1,0 +1,142 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+
+.clear {
+  clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+html {
+  margin-left: 150px;
+
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+nav {
+  float: left;
+  padding: 15px;
+  border: solid 1px green;
+  position: fixed;
+  left: 0;
+  top: 0;
+}
+
+
+nav span a ul li img {
+  float: left;
+  width: 110px;
+}
+
+nav span {
+  color: orange;
+  display: block;
+}
+
+nav ul {
+  padding-left: 0;
+}
+
+nav a {
+  color: darkslategray;
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+  padding: 15px 0;
+}
+
+nav img {
+  padding-bottom: 30px;
+  width: 80px;
+  height: 100px;
+}
+
+main {
+  width: 75%;
+  float: left;
+  border: solid 1px purple;
+
+}
+
+article {
+  width: 55%;
+  height: 300px;
+  float: left;
+  border: solid 1px pink;
+}
+
+
+main img {
+  height: 400px;
+  width: 100%;
+}
+
+aside {
+  float: right;
+  width: 25%;
+
+  border: solid 1px brown;
+}
+
+aside ul li {
+  padding: 0%;
+  margin: 0;
+}
+
+section {
+
+  border: solid 1px aqua;
+  float: left;
+}
+
+section h2 {
+  width: 100%;
+  border-bottom: solid 1px grey;
+  float: left;
+}
+
+section img {
+  float: left;
+  width: 25%;
+  height: 200px;
+  padding-left: 30px;
+}
+
+section h3 {
+  float: left;
+  width: 25%;
+  height: 200px;
+}
+
+section h3 span {
+  font-size: small;
+  display: block;
+}
+
+section p {
+  float: left;
+  width: 25%;
+  height: 200px;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
