@@ -2166,7 +2166,7 @@ button:active,
 	-webkit-justify-content: space-between;
 	-ms-justify-content: space-between;
 	justify-content: space-between;
-	background: #a9a9a9 url("images/overlay.png");
+	background: #012a36 url("images/overlay.png");
 	box-shadow: inset -0.25em 0 0.25em 0 rgba(0, 0, 0, 0.1);
 	color: #fff;
 	height: 100%;
@@ -2257,7 +2257,7 @@ button:active,
 #nav ul li a {
 	display: block;
 	padding: 0.5em 1.5em 0.5em 1.5em;
-	color: rgba(255, 255, 255, 0.5);
+	color: rgba(255, 255, 255, 1);
 	text-decoration: none;
 	outline: 0;
 	border: 0;
@@ -2371,17 +2371,15 @@ button:active,
 }
 
 #main>section.one {
-	background-color: #81918E;
-	/*background-image: url("../../images/banner.jpg");*/
-	background: hsla(312, 77%, 86%, 1);
+	background: hsla(243, 32%, 23%, 1);
 
-	background: linear-gradient(90deg, hsla(312, 77%, 86%, 1) 0%, hsla(220, 61%, 79%, 1) 100%);
+	background: linear-gradient(315deg, hsla(243, 32%, 23%, 1) 0%, hsla(274, 32%, 47%, 1) 31%, hsla(319, 40%, 70%, 1) 69%, hsla(336, 46%, 82%, 1) 100%);
 
-	background: -moz-linear-gradient(90deg, hsla(312, 77%, 86%, 1) 0%, hsla(220, 61%, 79%, 1) 100%);
+	background: -moz-linear-gradient(315deg, hsla(243, 32%, 23%, 1) 0%, hsla(274, 32%, 47%, 1) 31%, hsla(319, 40%, 70%, 1) 69%, hsla(336, 46%, 82%, 1) 100%);
 
-	background: -webkit-linear-gradient(90deg, hsla(312, 77%, 86%, 1) 0%, hsla(220, 61%, 79%, 1) 100%);
+	background: -webkit-linear-gradient(315deg, hsla(243, 32%, 23%, 1) 0%, hsla(274, 32%, 47%, 1) 31%, hsla(319, 40%, 70%, 1) 69%, hsla(336, 46%, 82%, 1) 100%);
 
-	filter: progid: DXImageTransform.Microsoft.gradient(startColorstr="#F7C0EC", endColorstr="#A7BDEA", GradientType=1);
+	filter: progid: DXImageTransform.Microsoft.gradient(startColorstr="#29274C", endColorstr="#7E52A0", GradientType=1);
 
 }
 
